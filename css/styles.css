@@ -1,0 +1,166 @@
+h1{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+/* Title */
+#title{
+  background-color: #ff4c68;
+  padding-bottom: -25%;
+}
+
+.container-fluid{
+  padding: 3% 18% ;
+}
+
+.title-heading{
+  padding-bottom: 7%;
+}
+
+.btn{
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.heading{
+  padding-top: 5%;
+}
+
+.iphone_mockup{
+  margin-left: 10%;
+  transform: rotate(15deg);
+  position: absolute;
+  z-index: 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+/* Feature */
+#features{
+  margin-top: 0%;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
+.second-heading{
+  text-align: center;
+}
+
+.second-heading-para{
+  color: #8f8f8f;
+  padding:6%;
+}
+
+.fa-second-heafig-para{
+  color: #ef8172;
+  transform: scale(5);
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.fa-second-heafig-para:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172  ;
+  text-align: center;
+}
+
+#testimonials .container-fluid{
+  padding: 5% 15%;
+}
+
+.dogspicture{
+  border-radius: 50%;
+  width: 10%;
+  height: 20%;
+  margin-top: 5%;
+}
+
+.testimonial-text{
+  color: #ffffff;
+}
+
+.carousel-indicators{
+  padding-top: 5%;
+}
+
+/* PRESS */
+#press{
+  background-color: #ef8172  ;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.logo-press{
+  padding-left: 1%;
+  width: 200px;
+  background-color: #ef8172
+}
+
+/* Pricing */
+
+#pricing{
+  text-align: center;
+  padding: 5% ;
+}
+
+/* CALL TO ACTION */
+
+#cta{
+  background-color: #ff4c68  ;
+  text-align: center;
+  padding: 20% 15%;
+}
+
+/* FOOTER */
+#footer{
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.fa-footer{
+  color: #ff4c68;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 3%;
+}
+
+
+
+@media (max-width: 1000px) {
+  #title{
+    text-align: center;
+  }
+  .iphone_mockup{
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  .logo-press{
+    padding-top: 5%;
+    width: 200px;
+    background-color: #ef8172
+  }
+}
